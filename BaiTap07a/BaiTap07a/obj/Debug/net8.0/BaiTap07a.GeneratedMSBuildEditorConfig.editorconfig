@@ -14,7 +14,7 @@ build_property.EnableComHosting =
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = D:\Hoc_Tap\NAM_BA\KY_5\LT_WEB\LapTrinhWeb\BaiTap07a\BaiTap07a
 build_property._RazorSourceGeneratorDebug = 
 
@@ -30,8 +30,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Hoc_Tap/NAM_BA/KY_5/LT_WEB/LapTrinhWeb/BaiTap07a/BaiTap07a/Views/Shared/LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExvZ2luUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Hoc_Tap/NAM_BA/KY_5/LT_WEB/LapTrinhWeb/BaiTap07a/BaiTap07a/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Hoc_Tap/NAM_BA/KY_5/LT_WEB/LapTrinhWeb/BaiTap07a/BaiTap07a/Views/TheLoai/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlTG9haVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Hoc_Tap/NAM_BA/KY_5/LT_WEB/LapTrinhWeb/BaiTap07a/BaiTap07a/Views/TheLoai/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlTG9haVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Hoc_Tap/NAM_BA/KY_5/LT_WEB/LapTrinhWeb/BaiTap07a/BaiTap07a/Views/TheLoai/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlTG9haVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Hoc_Tap/NAM_BA/KY_5/LT_WEB/LapTrinhWeb/BaiTap07a/BaiTap07a/Views/TheLoai/Index.cshtml]

@@ -1,0 +1,25 @@
+﻿@model BaiKiemTra02.Models.LopHoc
+
+<h1>Chi Tiết Lớp Học</h1>
+
+<div>
+    <h4>Lớp Học</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Tên Lớp Học</dt>
+        <dd class="col-sm-10">@Model.TenLopHoc</dd>
+
+        <dt class="col-sm-2">Năm Nhập Học</dt>
+        <dd class="col-sm-10">@Model.NamNhapHoc</dd>
+
+        <dt class="col-sm-2">Năm Ra Trường</dt>
+        <dd class="col-sm-10">@Model.NamRaTruong</dd>
+
+        <dt class="col-sm-2">Số Lượng Sinh Viên</dt>
+        <dd class="col-sm-10">@Model.SoLuongSinhVien</dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index" class="btn btn-primary">Quay Lại</a>
+</div>
+
