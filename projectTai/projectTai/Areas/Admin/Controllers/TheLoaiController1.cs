@@ -2,6 +2,7 @@
 using projectTai.Models;
 using Microsoft.AspNetCore.Mvc;
 
+
 namespace projectTai.Controllers
 {
 	public class TheLoaiController : Controller

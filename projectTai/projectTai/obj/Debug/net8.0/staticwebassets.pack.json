@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "D:\\Hoc_Tap\\NAM_BA\\KY_5\\LT_WEB\\LapTrinhWeb\\projectTai\\projectTai\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\projectTai.bundle.scp.css",
-      "PackagePath": "staticwebassets\\projectTai.bundle.scp.css"
+      "Id": "D:\\Hoc_Tap\\NAM_BA\\KY_5\\LT_WEB\\LapTrinhWeb\\projectTai\\projectTai\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProjectTai.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ProjectTai.bundle.scp.css"
     },
     {
       "Id": "D:\\Hoc_Tap\\NAM_BA\\KY_5\\LT_WEB\\LapTrinhWeb\\projectTai\\projectTai\\wwwroot\\css\\site.css",
@@ -245,20 +245,20 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.projectTai.props",
-      "PackagePath": "build\\projectTai.props"
-    },
-    {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.projectTai.props",
-      "PackagePath": "buildMultiTargeting\\projectTai.props"
-    },
-    {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.projectTai.props",
-      "PackagePath": "buildTransitive\\projectTai.props"
-    },
-    {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.projectTai.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ProjectTai.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ProjectTai.props",
+      "PackagePath": "build\\ProjectTai.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ProjectTai.props",
+      "PackagePath": "buildMultiTargeting\\ProjectTai.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ProjectTai.props",
+      "PackagePath": "buildTransitive\\ProjectTai.props"
     }
   ],
   "ElementsToRemove": []

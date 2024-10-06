@@ -1,6 +1,6 @@
 namespace BaiTap07.Models
 {
-    public class ErrorViewModel
+    public class TheLoaiViewModel
     {
         public string? RequestId { get; set; }
 
