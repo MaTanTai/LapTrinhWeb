@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjectTai")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6cb1479dad49c75893a9139a515134c1234fc6d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4cf299bd5f41205e6bb6ee05d1cae7834ade52b6")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjectTai")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjectTai")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

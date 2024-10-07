@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+@model IEnumerable<BaiKiemTra03.Models.Book>
+
+@{
+    ViewData["Title"] = "Danh sách sách";
+}
+
+<div class="container">
+    <h2>Danh sách sách</h2>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Tiêu đề sách</th>
+                <th>Năm xuất bản</th>
+                <th>Thể loại</th>
+                <th>Tác giả</th>
+                <th>Chức năng</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Title</td>
+                    <td>@item.PublicationYear</td>
+                    <td>@item.Genre</td>
+                    <td>@item.Author.AuthorName</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.BookId" class="btn btn-primary">Chỉnh sửa</a>
+                        <a asp-action="Delete" asp-route-id="@item.BookId" class="btn btn-danger">Xóa</a>
+                        <a asp-action="Details" asp-route-id="@item.BookId" class="btn btn-info">Chi tiết</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a asp-action="Create" class="btn btn-success">Thêm mới sách</a>
+</div>

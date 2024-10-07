@@ -1,0 +1,18 @@
+﻿@model BaiKiemTra03.Models.Book
+
+@{
+    ViewData["Title"] = "Chi tiết sách";
+}
+
+<div class="container">
+    <h3>Chi tiết sách</h3>
+    <p>Mã sách: <b>@Model.BookId</b></p>
+    <p>Tiêu đề sách: <b>@Model.Title</b></p>
+    <p>Năm xuất bản: <b>@Model.PublicationYear</b></p>
+    <p>Thể loại: <b>@Model.Genre</b></p>
+    <p>Tác giả: <b>@Model.Author.AuthorName</b></p>
+    <p>Quốc tịch tác giả: <b>@Model.Author.Nationality</b></p>
+    <p>Năm sinh tác giả: <b>@Model.Author.BirthYear</b></p>
+
+    <a asp-action="Index" class="btn btn-secondary">Quay lại danh sách</a>
+</div>
