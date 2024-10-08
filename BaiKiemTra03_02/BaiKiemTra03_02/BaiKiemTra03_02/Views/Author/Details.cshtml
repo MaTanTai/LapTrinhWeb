@@ -1,0 +1,12 @@
+﻿@model BaiKiemTra03_02.Models.Author
+
+<div class="container">
+    <h3>Chi tiết tác giả</h3>
+    <p><strong>Mã tác giả:</strong> <b>@Model.AuthorId</b></p>
+    <p><strong>Tên tác giả:</strong> <b>@Model.AuthorName</b></p>
+    <p><strong>Quốc tịch:</strong> <b>@Model.Nationality</b></p>
+    <p><strong>Năm sinh:</strong> <b>@Model.BirthYear</b></p>
+    <p><strong>Ngày tạo:</strong> <b>@String.Format("{0:dd/MM/yyyy}", Model.DateCreated)</b></p>
+
+    <a asp-action="Index" class="btn btn-primary">Quay lại</a>
+</div>

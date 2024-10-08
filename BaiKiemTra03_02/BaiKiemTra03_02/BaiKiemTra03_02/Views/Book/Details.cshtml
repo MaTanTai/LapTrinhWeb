@@ -1,0 +1,13 @@
+﻿@model BaiKiemTra03_02.Models.Book
+
+<div class="container">
+    <h3>Chi tiết sách</h3>
+    <p><strong>Mã sách:</strong> <b>@Model.BookId</b></p>
+    <p><strong>Tiêu đề sách:</strong> <b>@Model.Title</b></p>
+    <p><strong>Năm xuất bản:</strong> <b>@Model.PublicationYear</b></p>
+    <p><strong>Tác giả:</strong> <b>@Model.AuthorId</b></p>
+    <p><strong>Thể loại:</strong> <b>@Model.Genre</b></p>
+    <p><strong>Ngày tạo:</strong> <b>@String.Format("{0:dd/MM/yyyy}", Model.DateCreated)</b></p>
+
+    <a asp-action="Index" class="btn btn-primary">Quay lại</a>
+</div>

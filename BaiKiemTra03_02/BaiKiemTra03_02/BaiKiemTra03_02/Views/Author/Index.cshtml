@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Danh sách Tác giả";
+}
+
+@model IEnumerable<BaiKiemTra03_02.Models.Author>
+<div class="container">
+    <form asp-action="Index" method="get">
+        <input type="text" name="searchString" placeholder="Nhập tên tác giả cần tìm ..."
+               value="@ViewBag.SearchString" />
+        <input type="submit" value="Tìm kiếm" class="btn btn-primary" />
+    </form>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Tên tác giả</th>
+                <th>Quốc tịch</th>
+                <th>Năm sinh</th>
+                <th>Chức năng</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in ViewBag.Authors)
+            {
+                <tr>
+                    <td>@item.AuthorName</td>
+                    <td>@item.Nationality</td>
+                    <td>@item.BirthYear</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.AuthorId" class="btn btn-warning">Sửa</a>
+                        <a asp-action="Delete" asp-route-id="@item.AuthorId" class="btn btn-danger">Xóa</a>
+                        <a asp-action="Details" asp-route-id="@item.AuthorId" class="btn btn-info">Chi tiết</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a asp-controller="Author" asp-action="Create" class="btn btn-success">Thêm mới tác giả</a>
+</div>

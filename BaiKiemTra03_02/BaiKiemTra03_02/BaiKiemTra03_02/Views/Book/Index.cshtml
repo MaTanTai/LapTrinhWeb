@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Danh sách Sách";
+}
+
+@model IEnumerable<BaiKiemTra03_02.Models.Book>
+<div class="container">
+    <form asp-action="Index" method="get">
+        <input type="text" name="searchString" placeholder="Nhập tên sách hoặc thể loại cần tìm ..."
+               value="@ViewBag.SearchString" />
+        <input type="submit" value="Tìm kiếm" class="btn btn-primary" />
+    </form>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Tên sách</th>
+                <th>Năm xuất bản</th>
+                <th>Thể loại</th>
+                <th>Tác giả</th>
+                <th>Chức năng</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in ViewBag.Books)
+            {
+                <tr>
+                    <td>@item.Title</td>
+                    <td>@item.PublicationYear</td>
+                    <td>@item.Genre</td>
+                    <td>@item.Author?.AuthorName</td> <!-- Hiển thị tên tác giả -->
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.BookId" class="btn btn-warning">Sửa</a>
+                        <a asp-action="Delete" asp-route-id="@item.BookId" class="btn btn-danger">Xóa</a>
+                        <a asp-action="Details" asp-route-id="@item.BookId" class="btn btn-info">Chi tiết</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a asp-controller="Book" asp-action="Create" class="btn btn-success">Thêm mới sách</a>
+</div>
